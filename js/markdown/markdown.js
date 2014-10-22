@@ -1806,4 +1806,7 @@
   expose.renderJsonML = Markdown.renderJsonML;
   expose.DialectHelpers = DialectHelpers;
 
-})(exports);
+})(function() {
+  window.markdown = {};
+  return window.markdown;
+}());
