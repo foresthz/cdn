@@ -1,0 +1,10 @@
+
+#md_panel{
+  position: absolute;
+  bottom: 0px;
+}
+
+#md_content_up{
+  position: relative;
+  top: 5px;
+}
