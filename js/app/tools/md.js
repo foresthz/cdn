@@ -6,7 +6,7 @@
 })([
   'http://libs.baidu.com/jquery/1.9.0/jquery.js',
   'http://libs.baidu.com/bootstrap/3.0.3/js/bootstrap.js',
-  'https://rawgit.com/foresthz/cdn/master/js/libs/markdown/markdown.js'
+  'https://cdn.rawgit.com/foresthz/cdn/master/js/libs/markdown/markdown.js'
   // 'http://cdn.bootcss.com/markdown.js/0.6.0-beta1/markdown.min.js'
 ]);
 
@@ -15,7 +15,7 @@
     document.write('<link rel="stylesheet" type="text/css" href="'+ cssArray[i] +'">')
   }
 })([
-  'https://rawgit.com/foresthz/cdn/master/css/app/tools/md.css' ,
+  'https://cdn.rawgit.com/foresthz/cdn/master/css/app/tools/md.css' ,
   'http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.css'
 ]);
 
