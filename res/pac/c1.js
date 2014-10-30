@@ -42,6 +42,8 @@ function FindProxyForURL(url, host) {
         '*ytimg.com',
         '*google.ae',
 
+        '*.twimg.com',
+
         '*.sstatic.net'
         // '*.github.com'
     ];
