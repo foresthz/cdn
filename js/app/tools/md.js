@@ -39,7 +39,7 @@ var nodestr = '<hr><div id="md_panel"> \
 
 function initMD() {
   $(function() {
-    if($('#txt').length<1) {
+    if($('#mdtxt').length<1) {
       return;
     }
     $('#mdtxt').hide();
