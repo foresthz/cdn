@@ -1,6 +1,7 @@
 
 #md_panel{
-  position: absolute;
+  /*absolute表示层与窗口底部距离，可能导致多个层重叠*/
+  position: relative;
   bottom: 0px;
 }
 
