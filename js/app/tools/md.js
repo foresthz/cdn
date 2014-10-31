@@ -21,7 +21,8 @@
     document.write('<link rel="stylesheet" type="text/css" href="'+ cssArray[i] +'">')
   }
 })([
-  'http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.css'
+  'http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.css',
+  'https://rawgit.com/foresthz/cdn/master/css/app/tools/md.css'
 ]);
 
 var nodestr = '<hr><div id="md_panel"> \
