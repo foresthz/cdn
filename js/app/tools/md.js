@@ -22,6 +22,7 @@
   }
 })([
   'http://libs.baidu.com/bootstrap/3.0.3/css/bootstrap.css',
+  // 必须加载这个css，mdtxt才会在下方显示
   'https://rawgit.com/foresthz/cdn/master/css/app/tools/md.css'
 ]);
 
