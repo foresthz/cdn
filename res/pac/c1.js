@@ -44,6 +44,9 @@ function FindProxyForURL(url, host) {
 
         '*.twimg.com',
 
+        // 国外站
+        '*.sis001.us',
+
         '*.sstatic.net'
         // '*.github.com'
     ];
