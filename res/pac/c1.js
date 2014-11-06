@@ -46,6 +46,7 @@ function FindProxyForURL(url, host) {
 
         // 国外站
         '*.sis001.us',
+        '*.dropbox.com',
 
         '*.sstatic.net'
         // '*.github.com'
