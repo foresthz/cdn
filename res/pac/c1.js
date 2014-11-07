@@ -43,6 +43,8 @@ function FindProxyForURL(url, host) {
         '*ytimg.com',
         '*google.ae',
 
+        '*.googleapis.com',
+
         '*.twimg.com',
 
         // 国外站
