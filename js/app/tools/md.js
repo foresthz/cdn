@@ -38,7 +38,14 @@ var nodestr = '<hr><div id="md_panel"> \
     </div> \
 </div>';
 
+var isinit=false;
+
 function initMD() {
+  // 保证一个页面只调用一次
+  if(isinit) {
+    return;
+  }
+  isinit=true;
   // 不用等iframe加载完毕
   $('#mdtxt').ready(function() {
     if ($('#mdtxt').length < 1) {
@@ -58,4 +65,4 @@ function initMD() {
 // 无法在js中直接调用JQuery，因为此时js还未加载完毕，通过该方法，引用MarkDown功能又简化了不少。
 window.onload=function() {
   initMD();
-}
+};
