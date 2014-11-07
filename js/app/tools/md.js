@@ -39,8 +39,9 @@ var nodestr = '<hr><div id="md_panel"> \
 </div>';
 
 function initMD() {
-  $(function() {
-    if($('#mdtxt').length<1) {
+  // 不用等iframe加载完毕
+  $('#mdtxt').ready(function() {
+    if ($('#mdtxt').length < 1) {
       return;
     }
     $('#mdtxt').hide();
