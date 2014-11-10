@@ -46,10 +46,16 @@ function FindProxyForURL(url, host) {
         '*.googleapis.com',
 
         '*.twimg.com',
+        '*.wp.com',
 
         // 国外站
         '*.sis001.us',
         '*.dropbox.com',
+        't.co',
+        'bit.ly',
+
+        '*.angularjstutorial.com',
+        '*.angularjs.org',
 
         '*.sstatic.net'
         // '*.github.com'
