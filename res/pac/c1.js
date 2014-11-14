@@ -43,6 +43,9 @@ function FindProxyForURL(url, host) {
         '*ytimg.com',
         '*google.ae',
 
+        '*.blogspot.fr',
+        '*.google.hk',
+
         '*.googleapis.com',
 
         '*.twimg.com',
@@ -56,6 +59,7 @@ function FindProxyForURL(url, host) {
 
         '*.angularjstutorial.com',
         '*.angularjs.org',
+        '*.blogger.com',
 
         '*.sstatic.net'
         // '*.github.com'

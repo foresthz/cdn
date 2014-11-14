@@ -29,7 +29,7 @@
 
 var nodestr = '<hr><div id="md_panel"> \
     <div> \
-        <a class="label label-success" id="show_md_btn">显示/隐藏 MD文章</a> \
+        <span class="label label-success" id="show_md_btn">显示/隐藏 MD文章</span> \
     </div> \
     <div id="md_content_up"> \
         <div id="md_content"> \
