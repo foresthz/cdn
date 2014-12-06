@@ -4,7 +4,7 @@
 // document.querySelector('HEAD').appendChild(meta);
 
 // 在url中添加参数,便于使用github cdn,测试时直接使用raw,默认使用cdn, 如果hash中出现raw则调用raw链接
-// 和自身无关,只是对于静态资源加载,决定是否使用CDN
+// 和自身无关,只是对于静态资源加载,决定是否使用CDN,使用CDN不容易由于网络问题报错,但是更新较慢.
 // hash: #a:bb_a:cc, http:两种不同格式
 
 (function(jsArray) {
