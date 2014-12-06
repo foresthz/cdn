@@ -3,8 +3,11 @@
 // meta.setAttribute('charset', 'utf8');
 // document.querySelector('HEAD').appendChild(meta);
 
-(function(jsArray) {
+// 在url中添加参数,便于使用github cdn,测试时直接使用raw,默认使用cdn, 如果hash中出现raw则调用raw链接
 
+(function(jsArray) {
+  console.info(document.location.href);
+  
   for (var i = 0; i < jsArray.length; i++) {
     document.write('<script src="' + jsArray[i] + '"></script>');
   }
