@@ -1,4 +1,4 @@
-gist.github.com// * Created by jack on 14-4-30.
+// * Created by jack on 14-4-30.
 // http://localhost:8001/html/js/pac/chrome.pac.js
 // 直接调用file协议，更为稳定，因为rawgit不会马上刷新
 
