@@ -2,4 +2,5 @@
 address {
   color:blue;
   border:solid green 1px;
+  display: inline-block;
 }
