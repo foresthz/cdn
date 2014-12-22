@@ -25,6 +25,7 @@ function FindProxyForURL(url, host) {
         '*.google.com.hk',
         '*.gstatic.com',
         'googlecode.com',
+        'www.pegym.com',
         '*.appspot.com',
         '*.wordpress.com',
         '*googleusercontent.com',
