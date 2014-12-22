@@ -5,3 +5,8 @@ address {
   border:solid green 1px;
   display: inline-block;
 }
+
+aside{
+  width: 20%;
+  float: left;
+}
