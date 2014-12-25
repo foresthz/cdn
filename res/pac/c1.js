@@ -37,6 +37,7 @@ function FindProxyForURL(url, host) {
         '*.gmail.com',
         '*.netflix.com',
         '*mitbbs.com',
+        '*.bloomberg.com',
 //        '*sinovision.net',
         '*.twitter.com',
         'twitter.com',
