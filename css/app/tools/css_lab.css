@@ -1,0 +1,26 @@
+
+
+
+.d1{
+  background-color: pink;
+}
+.d2{
+  background-color: yellow;
+}
+
+.w50{
+  width: 50%;
+}
+
+.w100{
+  width: 100%;
+}
+
+.b{
+  display: block;
+}
+
+.ib{
+  display: inline-block;
+}
+
