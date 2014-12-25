@@ -1,5 +1,7 @@
 
-
+/*
+wn 可以用JQ解析,之后为其添加真正的显示属性,即把样式编码在 className里.
+*/
 
 .d1{
   background-color: pink;
