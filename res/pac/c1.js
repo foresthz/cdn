@@ -24,7 +24,7 @@ function FindProxyForURL(url, host) {
         '*.google.com',
         '*.google.com.hk',
         '*.gstatic.com',
-        'googlecode.com',
+        '*.googlecode.com',
         'www.pegym.com',
         '*.appspot.com',
         '*.wordpress.com',
@@ -36,6 +36,7 @@ function FindProxyForURL(url, host) {
         '*youtube.com',
         '*.gmail.com',
         '*.netflix.com',
+        '*.w.org',
         '*mitbbs.com',
         '*.bloomberg.com',
 //        '*sinovision.net',
@@ -47,6 +48,10 @@ function FindProxyForURL(url, host) {
         '*.gravatar.com',
 
         'gist.github.com',
+        '*.gravatar.com',
+
+        'instagram.com',
+        's3.amazonaws.com',
 
         '*.blogspot.fr',
         '*.google.hk',
@@ -65,6 +70,9 @@ function FindProxyForURL(url, host) {
         '*.angularjstutorial.com',
         '*.angularjs.org',
         '*.blogger.com',
+
+        'vimeo.com',
+        '*.vimeocdn.com',
 
         '*.sstatic.net',
         '*.speakerdeck.com'
