@@ -33,6 +33,7 @@ function FindProxyForURL(url, host) {
         '*.facebook.com',
         'www.ntdtv.com',
         'www.aboluowang.com',
+        's3.amazonaws.com',
         '*youtube.com',
         '*.gmail.com',
         '*.netflix.com',
