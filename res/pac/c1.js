@@ -76,6 +76,7 @@ function FindProxyForURL(url, host) {
         '*.vimeocdn.com',
         'friendfeed.com',
         '*.mengstupiditis.com',
+        'www.polymer-project.org',
 
         '*.sstatic.net',
         '*.speakerdeck.com'
