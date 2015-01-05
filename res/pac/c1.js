@@ -79,7 +79,12 @@ function FindProxyForURL(url, host) {
         'www.polymer-project.org',
 
         '*.sstatic.net',
-        '*.speakerdeck.com'
+        '*.speakerdeck.com',
+        '*.golang.org',
+        'golang.org',
+        '*.chromium.org',
+        '*.blogblog.com',
+        '*.googlesource.com'
         // '*.github.com'
     ];
 
