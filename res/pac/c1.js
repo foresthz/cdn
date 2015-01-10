@@ -86,7 +86,8 @@ function FindProxyForURL(url, host) {
         '*.blogblog.com',
         '*.googlesource.com',
         '*.wireshark.org',
-        '*.polymer-project.org'
+        '*.polymer-project.org',
+        '*.docker.com'
         // '*.github.com'
     ];
 
