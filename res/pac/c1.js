@@ -84,7 +84,9 @@ function FindProxyForURL(url, host) {
         'golang.org',
         '*.chromium.org',
         '*.blogblog.com',
-        '*.googlesource.com'
+        '*.googlesource.com',
+        '*.wireshark.org',
+        '*.polymer-project.org'
         // '*.github.com'
     ];
 
