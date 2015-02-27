@@ -53,10 +53,10 @@ var isinit=false;
 
 function initMD() {
   // 保证一个页面只调用一次
-  if(isinit) {
+  if (isinit) {
     return;
   }
-  isinit=true;
+  isinit = true;
   // 不用等iframe加载完毕
   $('#mdtxt').ready(function() {
     if ($('#mdtxt').length < 1) {
@@ -70,6 +70,20 @@ function initMD() {
     $('#show_md_btn').bind('click', function() {
       $('#md_content').toggle();
     });
+  });
+
+  $(function() {
+    // alert('loaded');
+    $('[rel]').not('link').each(function() {
+      $(this).bind('click', function() {
+        console.info($(this).attr('rel'));
+        urls = eval($(this).attr('rel'));
+        for (var i = 0; i < urls.length; i++) {
+          open(urls[i]);
+        }
+      });
+    });
+
   });
 }
 
