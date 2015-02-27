@@ -79,11 +79,11 @@ function initMD() {
         console.info($(this).attr('rel'));
         try {
           var urls = eval($(this).attr('rel'));
-          for (var i = 0; i < urls.length; i++) {
-            open(urls[i]);
-          }
         } catch (err) {
           alert(err.message);
+        }
+        for (var i = 0; i < urls.length; i++) {
+          open(urls[i]);
         }
 
       });
