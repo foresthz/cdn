@@ -77,10 +77,15 @@ function initMD() {
     $('[rel]').not('link').each(function() {
       $(this).bind('click', function() {
         console.info($(this).attr('rel'));
-        urls = eval($(this).attr('rel'));
-        for (var i = 0; i < urls.length; i++) {
-          open(urls[i]);
+        try {
+          var urls = eval($(this).attr('rel'));
+          for (var i = 0; i < urls.length; i++) {
+            open(urls[i]);
+          }
+        } catch (err) {
+          alert(err.message);
         }
+
       });
     });
 
